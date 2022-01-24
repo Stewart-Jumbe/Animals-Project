@@ -1,6 +1,6 @@
 package com.tsi.sjumbe.animals;
 
-public class Animal {
+public abstract class Animal {
 
     ////////Attributes/////////
     private int age;
@@ -24,9 +24,12 @@ public class Animal {
         return name;
     }
 
-    public String setName(String newName){
+    public int getAge(){
+        return age;
+    }
+
+    public void setName(String newName){
         name = newName;
-        return name;
     }
 
 

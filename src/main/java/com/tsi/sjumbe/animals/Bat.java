@@ -1,4 +1,4 @@
 package com.tsi.sjumbe.animals;
 
-public class Bat {
+public class Bat extends Animal {
 }
