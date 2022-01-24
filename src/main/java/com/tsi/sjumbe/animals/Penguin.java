@@ -1,4 +1,4 @@
 package com.tsi.sjumbe.animals;
 
-public class Penguin {
+public class Penguin extends Bird  {
 }

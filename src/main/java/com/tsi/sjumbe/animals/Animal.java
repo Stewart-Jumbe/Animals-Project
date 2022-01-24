@@ -6,6 +6,7 @@ public abstract class Animal {
     private int age;
     private String name;
     private int Speed ;
+    private String sleepState;
 
     ////////Constructors/////////
     public Animal(){
@@ -14,23 +15,41 @@ public abstract class Animal {
     }
 
     ////////Methods/////////
-    public void animalSleeps(){
+    public String animalSleeps(){
 
-        System.out.println("Sleeping");
-        System.out.println("I'm upgain");
+        return sleepState = "Asleep";
+    }
+
+    public String animalWakes(){
+
+        return sleepState = "Awake";
     }
 
     public String getName(){
         return name;
     }
 
+    public void setName(String newName){
+        name = newName;
+    }
+
     public int getAge(){
         return age;
     }
 
-    public void setName(String newName){
-        name = newName;
+    public void setAge(int newAge){
+        age = newAge;
     }
+
+    public String getSleepState(){
+        return sleepState;
+    }
+
+    public void setSleepState(String awakeOrAsleep){
+        sleepState = awakeOrAsleep;
+
+    }
+
 
 
     ///To String /////

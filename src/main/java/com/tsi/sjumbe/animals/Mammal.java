@@ -1,4 +1,4 @@
 package com.tsi.sjumbe.animals;
 
-public class Mammal extends Animal {
+public abstract class Mammal extends Animal {
 }
