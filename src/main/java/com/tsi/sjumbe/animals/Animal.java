@@ -9,7 +9,7 @@ public abstract class Animal {
 
     ////////Constructors/////////
     public Animal(){
-       age = 0;
+      // age = 0;
        name = "Bingo";
     }
 
