@@ -24,6 +24,7 @@ public class BatTest {
 //    @Test
 //    void test_getName(){
 //        Bat testBat = new Bat();
+//        System.out.println(  testBat.getName());
 //        assertEquals(testBat.setName("Magic John"),"Magic John","setName isnt working");
 //    }
     @Test
@@ -38,6 +39,13 @@ public class BatTest {
         Bat testBat = new Bat();
         testBat.setSleepState("Asleep");
         assertEquals(testBat.getSleepState(),"Asleep","setSleepState isnt working");
+    }
+
+    @Test
+    public void test_takeOff(){
+        Bat myBat = new Bat();
+        myBat.takeOff();
+        assertEquals(myBat.getFlightStatus(),"takenOff","Flight status not working");
     }
 
 

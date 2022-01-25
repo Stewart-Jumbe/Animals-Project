@@ -2,18 +2,25 @@ package com.tsi.sjumbe.animals;
 
 public class Pigeon extends Bird implements Flying {
 
+///////////Attributes/////////////////////
+    private String flightStatus;
+
+///////////Methods/////////////////////
     @Override
-    public void takeOff() {
-        System.out.println("Increaing speed");
+    public String takeOff(){
+        flightStatus = "takenOff";
+        return flightStatus;
     }
 
     @Override
-    public void fly(){
-        System.out.println("I'm flying");
+    public String fly(){
+        flightStatus = "Flying";
+        return flightStatus;
     }
 
     @Override
-    public void land(){
-        System.out.println("Move out the way i need space to land");
+    public String land(){
+        flightStatus = "Landing";
+        return flightStatus;
     }
 }

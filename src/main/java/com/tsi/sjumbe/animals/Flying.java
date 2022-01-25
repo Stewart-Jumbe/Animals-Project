@@ -2,11 +2,11 @@ package com.tsi.sjumbe.animals;
 
 public interface Flying {
 
-    void takeOff();
+    String takeOff();
 
-    void fly();
+    String fly();
 
-    void land();
+    String land();
 
 
 

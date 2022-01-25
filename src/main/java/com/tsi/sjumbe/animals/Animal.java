@@ -5,7 +5,6 @@ public abstract class Animal {
     ////////Attributes/////////
     private int age;
     private String name;
-    private int Speed ;
     private String sleepState;
 
     ////////Constructors/////////
