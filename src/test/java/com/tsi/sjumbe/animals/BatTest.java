@@ -57,4 +57,12 @@ public class BatTest {
 
     }
 
+    @Test
+    public void test_land(){
+        Bat testBat = new Bat();
+        testBat.land();
+        assertEquals(testBat.getFlightStatus(),"Landing","flightStatus isnt working");
+
+    }
+
 }
