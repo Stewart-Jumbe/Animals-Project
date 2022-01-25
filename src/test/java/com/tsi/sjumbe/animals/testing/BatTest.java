@@ -16,12 +16,16 @@ public class BatTest {
         assertTrue(myBat instanceof Bat,"Its not an instance of Bat");
     }
     @Test
-    void test_set_name(){
+    void test_setName(){
         Bat testBat = new Bat();
         testBat.setName("TestName");
         assertEquals(testBat.getName(),"TestName","The name of the animal does not match what you set it as");
     }
-
+//    @Test
+//    void test_getName(){
+//        Bat testBat = new Bat();
+//        assertEquals(testBat.setName("Magic John"),"Magic John","setName isnt working");
+//    }
     @Test
     void test_set_age(){
         Bat testBat = new Bat();
