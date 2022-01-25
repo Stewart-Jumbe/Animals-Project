@@ -11,7 +11,7 @@ public class BatTest {
 
 
     @Test
-    public void bat_Instance_Test(){
+    public void test_bat_Instance(){
         Bat myBat = new Bat();
         assertTrue(myBat instanceof Bat,"Its not an instance of Bat");
     }
