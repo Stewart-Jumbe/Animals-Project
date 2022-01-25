@@ -2,8 +2,8 @@ GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_
 Animals,com.tsi.sjumbe.animals,Penguin,3,0,0,0,1,0,1,0,1,0
 Animals,com.tsi.sjumbe.animals,Bird,3,0,0,0,1,0,1,0,1,0
 Animals,com.tsi.sjumbe.animals,Pigeon,15,0,0,0,7,0,4,0,4,0
-Animals,com.tsi.sjumbe.animals,Animal,46,0,0,0,16,0,10,0,10,0
+Animals,com.tsi.sjumbe.animals,Animal,16,30,0,0,3,13,3,7,3,7
 Animals,com.tsi.sjumbe.animals,Main,4,0,0,0,2,0,2,0,2,0
 Animals,com.tsi.sjumbe.animals,Cat,3,0,0,0,1,0,1,0,1,0
-Animals,com.tsi.sjumbe.animals,Bat,3,0,0,0,1,0,1,0,1,0
+Animals,com.tsi.sjumbe.animals,Bat,0,3,0,0,0,1,0,1,0,1
 Animals,com.tsi.sjumbe.animals,Mammal,3,0,0,0,1,0,1,0,1,0
