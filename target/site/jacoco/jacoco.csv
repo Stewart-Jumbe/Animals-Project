@@ -1,0 +1,9 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+Animals,com.tsi.sjumbe.animals,Penguin,3,0,0,0,1,0,1,0,1,0
+Animals,com.tsi.sjumbe.animals,Bird,3,0,0,0,1,0,1,0,1,0
+Animals,com.tsi.sjumbe.animals,Pigeon,15,0,0,0,7,0,4,0,4,0
+Animals,com.tsi.sjumbe.animals,Animal,46,0,0,0,16,0,10,0,10,0
+Animals,com.tsi.sjumbe.animals,Main,4,0,0,0,2,0,2,0,2,0
+Animals,com.tsi.sjumbe.animals,Cat,3,0,0,0,1,0,1,0,1,0
+Animals,com.tsi.sjumbe.animals,Bat,3,0,0,0,1,0,1,0,1,0
+Animals,com.tsi.sjumbe.animals,Mammal,3,0,0,0,1,0,1,0,1,0
