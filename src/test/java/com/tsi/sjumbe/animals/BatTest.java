@@ -43,10 +43,18 @@ public class BatTest {
 
     @Test
     public void test_takeOff(){
-        Bat myBat = new Bat();
-        myBat.takeOff();
-        assertEquals(myBat.getFlightStatus(),"takenOff","Flight status not working");
+        Bat testBat = new Bat();
+        testBat.takeOff();
+        assertEquals(testBat.getFlightStatus(),"takenOff","Flight status not working");
     }
 
+    @Test
+    public void test_fly(){
+        Bat testBat = new Bat();
+        testBat.fly();
+        assertEquals(testBat.getFlightStatus(),"Flying","Flight status not working");
+
+
+    }
 
 }
