@@ -7,9 +7,12 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class CatTest {
 
+    //Initialising cat for all tests
+    Cat testCat = new Cat();
+
     @Test
     public void test_Cat_Instance(){
-        Cat testCat = new Cat();
+
         assertTrue( testCat instanceof Cat,"Its not an instance of Cat");
 
     }
@@ -22,11 +25,23 @@ public class CatTest {
 
     @Test
     public void test_Cat_GetAge(){
-        Cat testCat = new Cat();
         testCat.setAge(1);
-        assertEquals(testCat.getAge(),1,"Get Age isn't working");
-
+        assertEquals(1,testCat.getAge(),"Get Age isn't working");
     }
+
+    @Test
+    public void test_setName(){
+        testCat.setName("Breygon");
+        assertEquals("Breygon",testCat.getName(),"setName method not working");
+    }
+
+    @Test
+    public void test_setSleepState(){
+        testCat.setSleepState("awake");
+        assertEquals("awake",testCat.getSleepState(),"setSleep state isn't working");
+    }
+
+
 
 }
 

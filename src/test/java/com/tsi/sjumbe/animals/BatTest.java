@@ -19,41 +19,35 @@ public class BatTest {
     public void test_setName(){
         Bat testBat = new Bat();
         testBat.setName("TestName");
-        assertEquals(testBat.getName(),"TestName","The name of the animal does not match what you set it as");
+        assertEquals("TestName",testBat.getName(),"The name of the animal does not match what you set it as");
     }
-//    @Test
-//    void test_getName(){
-//        Bat testBat = new Bat();
-//        System.out.println(  testBat.getName());
-//        assertEquals(testBat.setName("Magic John"),"Magic John","setName isnt working");
-//    }
+
     @Test
     public void test_set_age(){
         Bat testBat = new Bat();
         testBat.setAge(1);
-        assertEquals(testBat.getAge(),1,"Set age isn't working");
+        assertEquals(1,testBat.getAge(),"Set age isn't working");
     }
 
     @Test
     public void test_setSleepState(){
         Bat testBat = new Bat();
         testBat.setSleepState("Asleep");
-        assertEquals(testBat.getSleepState(),"Asleep","setSleepState isnt working");
+        assertEquals("Asleep",testBat.getSleepState(),"setSleepState isnt working");
     }
 
     @Test
     public void test_takeOff(){
         Bat testBat = new Bat();
         testBat.takeOff();
-        assertEquals(testBat.getFlightStatus(),"takenOff","Flight status not working");
+        assertEquals("takenOff",testBat.getFlightStatus(),"Flight status not working");
     }
 
     @Test
     public void test_fly(){
         Bat testBat = new Bat();
         testBat.fly();
-        assertEquals(testBat.getFlightStatus(),"Flying","Flight status not working");
-
+        assertEquals("Flying",testBat.getFlightStatus(),"Flight status not working");
 
     }
 
