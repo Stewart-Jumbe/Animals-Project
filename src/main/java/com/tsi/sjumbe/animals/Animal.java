@@ -6,6 +6,15 @@ public abstract class Animal {
     private int age;
     private String name;
     private String sleepState;
+    private float price;
+
+    public float getPrice() {
+        return price;
+    }
+
+    public void setPrice(float price) {
+        this.price = price;
+    }
 
     ////////Constructors/////////
     public Animal(){
